@@ -21,6 +21,10 @@ The graph keeps track of the min cost to get from a source node to a destination
 For this particular implementation, I chose to implement the neighbors for each vertice as an array,
 which has O(n) time when searching for a particular vertice but is more space efficient than a 2d array.
 In addition, I won't be removing edges much so I decided not to go with a LinkedList.
+
+Update: It would've been much better to implement by using two for loops and going through the list of verticies and 
+edges than to create a class.
+
 '''
 
 class Vertice:
